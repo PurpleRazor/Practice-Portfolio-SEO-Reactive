@@ -89,3 +89,20 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (max-width: 800px) {
+  img {
+    display: none;
+  }
+
+  h3 {
+    font-size: 60px;
+  }
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+}
