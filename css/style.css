@@ -91,10 +91,6 @@ p {
 }
 
 @media (max-width: 800px) {
-  img {
-    display: none;
-  }
-
   h3 {
     font-size: 60px;
   }
@@ -104,5 +100,11 @@ p {
 
   p {
     text-align: center;
+  }
+  .primary-link {
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
   }
 }
